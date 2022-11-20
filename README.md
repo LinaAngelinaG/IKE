@@ -1,7 +1,7 @@
 # IKE
 
 
-   Генератор::
+  # Генератор::
    
     python gen.py -p 4562191 --hash md5
     
@@ -10,7 +10,7 @@
    
                   Ni*Nr*g_x*g_y*Ci*Cr*SAi*IDi*HASH
    
-   Восстановление пароля::
+  # Восстановление пароля::
     
     python crack.py -m dddddddd -f check.txt
     
